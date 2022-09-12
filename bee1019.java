@@ -17,6 +17,8 @@ public class Main {
 		
 		time = input.nextInt();
 
+		input.close();
+
 		while(time>=60){
 			time = time - 60;
 			minutes++;

@@ -35,6 +35,8 @@ public class Main {
 
 		wallet = input.nextDouble();
 
+		input.close();
+
 		while(wallet>=100){
 			wallet = wallet - 100;
 			doll100++;

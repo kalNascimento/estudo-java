@@ -12,6 +12,8 @@ public class Main {
 
 		X = input.nextInt();
 		Y = input.nextDouble();
+
+		input.close();
 		
 		consumo = X / Y;
 		

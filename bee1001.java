@@ -12,6 +12,8 @@ public class Main {
         
         A = input.nextInt();
         B = input.nextInt();
+        
+        input.close();
     
         X = A + B;
         

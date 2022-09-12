@@ -14,6 +14,8 @@ public class Main {
 		tempoGasto = input.nextInt();
 		velocidadeMedia = input.nextInt();
 
+		input.close();
+
 		distancia = tempoGasto * velocidadeMedia;
 		gastoCombustivel = distancia / 12;
 

@@ -16,7 +16,8 @@ public class Main {
 		days = 0;
 
 		daysLiving = input.nextInt();
-		
+
+		input.close();
 
 		while(daysLiving >= 365) {
 			daysLiving = daysLiving - 365;

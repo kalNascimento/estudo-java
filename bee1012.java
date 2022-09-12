@@ -19,6 +19,8 @@ public class Main {
 		B = input.nextDouble();
 		C = input.nextDouble();
 
+		input.close();
+
 		triangle = (A * C)/2;
 		circle =  3.14159 * C * C;
 		trapeze = ((A + B)*C)/2;

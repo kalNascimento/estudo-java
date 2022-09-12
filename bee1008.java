@@ -20,6 +20,8 @@ public class Main {
 		horasTrabalhadas = input.nextInt();
 		valorHora = input.nextDouble();
 
+		input.close();
+
 		salario = valorHora * horasTrabalhadas;
 
 		System.out.println("NUMBER = " + codFuncionario);

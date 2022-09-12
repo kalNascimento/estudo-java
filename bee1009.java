@@ -19,6 +19,8 @@ public class Main {
 		name = input.nextLine();
 		fixedSalary = input.nextDouble();
 		saleAmount  = input.nextDouble();
+
+		input.close();
 		
 		salary = fixedSalary + (saleAmount * 0.15);
 

@@ -17,6 +17,8 @@ public class Main {
 		B = input.nextInt();
 		C = input.nextInt();
 
+		input.close();
+
 		maiorAB = ((A + B + Math.abs((A - B)))/2);
 		maiorFinal = ((C + maiorAB + Math.abs((C - maiorAB)))/2);
 

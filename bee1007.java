@@ -22,6 +22,8 @@ public class Main {
 		C = input.nextInt();
 		D = input.nextInt();
 
+		input.close();
+
 		diferenca = ((A*B) - (C * D));
 		
 		System.out.println("DIFERENCA = " + diferenca);

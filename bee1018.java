@@ -25,6 +25,9 @@ public class Main {
 		dolls1 = 0;
 
 		myCarteira = input.nextInt();
+
+		input.close();
+		
 		carteira = myCarteira;
 
 		while(carteira>=100){

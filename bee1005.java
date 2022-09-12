@@ -17,6 +17,8 @@ public class Main {
 		A = input.nextDouble();
 		B = input.nextDouble();
 
+		input.close();
+
 		media = (((A*3.5) + (B*7.5))/11);
 
 		System.out.printf("Media = %.5f%n", media);

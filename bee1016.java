@@ -11,6 +11,8 @@ public class Main {
 		
 		carY = input.nextInt();
 
+		input.close();
+
 		time = carY * 2;
 
 		System.out.printf("%d",time);

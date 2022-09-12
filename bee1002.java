@@ -11,6 +11,8 @@ class Main {
         
         raio = input.nextDouble();
 
+        input.close();
+
         area = n * (raio * raio);
         
         System.out.printf("A=%.4f%n", area);

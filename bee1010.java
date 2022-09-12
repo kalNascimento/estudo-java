@@ -24,6 +24,8 @@ public class Main {
 		amountPart2 = input.nextInt();
 		pricePart2 = input.nextDouble();
 
+		input.close();
+
 		soma = (amountPart1 * pricePart1) + (amountPart2 * pricePart2);
 
 		System.out.printf("VALOR A PAGAR: R$ %.2f\n", soma);

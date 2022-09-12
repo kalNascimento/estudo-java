@@ -12,6 +12,8 @@ class Main {
         A = input.nextInt();
         B = input.nextInt();
 
+        input.close();
+
         SOMA = A + B;
         
         System.out.printf("SOMA = %d\n", SOMA);

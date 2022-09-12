@@ -20,6 +20,8 @@ public class Main {
 		x2 = input.nextDouble();
 		y2 = input.nextDouble();
 
+		input.close();
+
 		prodX = Math.pow((x2 - x1), 2);
 		prodY = Math.pow((y2 - y1), 2);
 

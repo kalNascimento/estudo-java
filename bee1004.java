@@ -17,6 +17,8 @@ public class Main {
         valor1 = input.nextInt();
         valor2 = input.nextInt();
 
+        input.close();
+
         PROD = valor1 * valor2;
 
         System.out.println("PROD = " + PROD);
