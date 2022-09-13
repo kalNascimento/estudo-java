@@ -19,6 +19,8 @@ public class Main {
 		nota3 = input.nextDouble();
 		nota4 = input.nextDouble();
 
+		input.close();
+
 		mediaIntermediaria = ((nota1 * 2) + (nota2 * 3) + (nota3 * 4) + (nota4 * 1))/10;
 
 		if (mediaIntermediaria < 5) {
